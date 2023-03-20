@@ -41,7 +41,7 @@ function changeColor() {
 
     obj.flowerComment.forEach((elem,index) => {
       if (random === index){
-        comment.innerHTML = elem.replace(/\n/g, "<br>");
+        comment.innerHTML = elem.replaceAll("\n", "<br>");
       }
     });
 
