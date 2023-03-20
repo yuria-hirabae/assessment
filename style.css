@@ -1,0 +1,72 @@
+/* This is a 'stylesheet'. 
+It defines how the elements appear when they are rendered by the browser. */
+
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: monospace;
+}
+
+
+button {
+  border-radius: 8px;
+  font-size: 20pt;
+  height: 50px;
+  width: 200px;
+}
+
+button:active {
+  box-shadow: 2px 2px 2px #b6b6b6;
+  transform: translateY(3px);
+}
+
+#name {
+  margin: 20px auto;
+  padding: 5px;
+  width: 30%;
+  /* width: 350px; */
+  background-color: white;
+  border-radius: 8px;
+  border: 2px dashed palegreen;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#photo {
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  width: 30%;
+  /* width: 350px; */
+  height: 30%;
+  border-radius: 10%;
+  background-color: white;
+  border: 2px dashed palegreen;
+}
+
+#text {
+  margin: 20px auto;
+  padding: 10px;
+  width: 70%;
+  /* width: 720px; */
+  background-color: white;
+  border-radius: 8px;
+  border: 2px dashed palegreen;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#comment {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  /* width: 850px; */
+  background-color: white;
+  border-radius: 8px;
+  border: 2px dashed palegreen;
+  font-size: 18px;
+  font-weight: bolder;
+}
